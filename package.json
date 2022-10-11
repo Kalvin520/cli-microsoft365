@@ -187,7 +187,7 @@
   ],
   "dependencies": {
     "@azure/msal-node": "^1.9.1",
-    "@xmldom/xmldom": "^0.7.5",
+    "@xmldom/xmldom": "^0.8.3",
     "adaptive-expressions": "^4.16.0",
     "adaptivecards": "^2.10.0",
     "adaptivecards-templating": "^2.2.0",

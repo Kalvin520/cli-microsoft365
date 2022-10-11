@@ -10,7 +10,7 @@
       "license": "MIT",
       "dependencies": {
         "@azure/msal-node": "^1.9.1",
-        "@xmldom/xmldom": "^0.7.5",
+        "@xmldom/xmldom": "^0.8.3",
         "adaptive-expressions": "^4.16.0",
         "adaptivecards": "^2.10.0",
         "adaptivecards-templating": "^2.2.0",
@@ -816,9 +816,9 @@
       "dev": true
     },
     "node_modules/@xmldom/xmldom": {
-      "version": "0.7.5",
-      "resolved": "https://registry.npmjs.org/@xmldom/xmldom/-/xmldom-0.7.5.tgz",
-      "integrity": "sha512-V3BIhmY36fXZ1OtVcI9W+FxQqxVLsPKcNjWigIaa81dLC9IolJl5Mt4Cvhmr0flUnjSpTdrbMTSbXqYqV5dT6A==",
+      "version": "0.8.3",
+      "resolved": "https://registry.npmjs.org/@xmldom/xmldom/-/xmldom-0.8.3.tgz",
+      "integrity": "sha512-Lv2vySXypg4nfa51LY1nU8yDAGo/5YwF+EY/rUZgIbfvwVARcd67ttCM8SMsTeJy51YhHYavEq+FS6R0hW9PFQ==",
       "engines": {
         "node": ">=10.0.0"
       }
@@ -868,6 +868,14 @@
         "lru-cache": "^5.1.1",
         "uuid": "^8.3.2",
         "xpath": "^0.0.32"
+      }
+    },
+    "node_modules/adaptive-expressions/node_modules/@xmldom/xmldom": {
+      "version": "0.7.5",
+      "resolved": "https://registry.npmjs.org/@xmldom/xmldom/-/xmldom-0.7.5.tgz",
+      "integrity": "sha512-V3BIhmY36fXZ1OtVcI9W+FxQqxVLsPKcNjWigIaa81dLC9IolJl5Mt4Cvhmr0flUnjSpTdrbMTSbXqYqV5dT6A==",
+      "engines": {
+        "node": ">=10.0.0"
       }
     },
     "node_modules/adaptivecards": {
@@ -6246,9 +6254,9 @@
       "dev": true
     },
     "@xmldom/xmldom": {
-      "version": "0.7.5",
-      "resolved": "https://registry.npmjs.org/@xmldom/xmldom/-/xmldom-0.7.5.tgz",
-      "integrity": "sha512-V3BIhmY36fXZ1OtVcI9W+FxQqxVLsPKcNjWigIaa81dLC9IolJl5Mt4Cvhmr0flUnjSpTdrbMTSbXqYqV5dT6A=="
+      "version": "0.8.3",
+      "resolved": "https://registry.npmjs.org/@xmldom/xmldom/-/xmldom-0.8.3.tgz",
+      "integrity": "sha512-Lv2vySXypg4nfa51LY1nU8yDAGo/5YwF+EY/rUZgIbfvwVARcd67ttCM8SMsTeJy51YhHYavEq+FS6R0hW9PFQ=="
     },
     "acorn": {
       "version": "8.7.1",
@@ -6287,6 +6295,13 @@
         "lru-cache": "^5.1.1",
         "uuid": "^8.3.2",
         "xpath": "^0.0.32"
+      },
+      "dependencies": {
+        "@xmldom/xmldom": {
+          "version": "0.7.5",
+          "resolved": "https://registry.npmjs.org/@xmldom/xmldom/-/xmldom-0.7.5.tgz",
+          "integrity": "sha512-V3BIhmY36fXZ1OtVcI9W+FxQqxVLsPKcNjWigIaa81dLC9IolJl5Mt4Cvhmr0flUnjSpTdrbMTSbXqYqV5dT6A=="
+        }
       }
     },
     "adaptivecards": {
